@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WebService", "1 - WebService", "{ED43D56E-7A49-4B52-84FE-26C816A5C6CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{13442CD8-2926-4F93-B778-94391CC11707}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{545851F8-BA16-4EBA-B3B1-8392CCB951EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{D0471293-BE7C-4387-AF48-1A01AA0E6E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroCatalogue.Application", "SuperHeroCatalogue.Application\SuperHeroCatalogue.Application.csproj", "{BFAAE84B-7877-4726-8638-8492A84A87CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroCatalogue.Domain", "SuperHeroCatalogue.Domain\SuperHeroCatalogue.Domain.csproj", "{1DC221BD-E7B5-4DA2-A1C2-42E4A984F40A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{218EC452-8316-46E0-801D-E7B1B6108B6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{A266E438-EBA2-457F-AFDD-77C712FA5798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroCatalogue.Infra.Data", "SuperHeroCatalogue.Infra.Data\SuperHeroCatalogue.Infra.Data.csproj", "{9FD84115-9F81-4654-8DB0-D78E337516B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroCatalogue.Infra.CrossCutting.IoC", "SuperHeroCatalogue.Infra.CrossCutting.IoC\SuperHeroCatalogue.Infra.CrossCutting.IoC.csproj", "{E2743A6E-D175-49F3-952A-3600A9BCD018}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{0E9416D5-717D-4D71-B7FA-F5FE30B06905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroCatalogue.WebService", "SuperHeroCatalogue.WebService\SuperHeroCatalogue.WebService.csproj", "{776D2ADD-1AC3-4219-8F95-6E581A7439E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroCatalogue.Test", "SuperHeroCatalogue.Test\SuperHeroCatalogue.Test.csproj", "{60FEFEBD-0BAA-46E1-B8BE-28949C3E2CCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFAAE84B-7877-4726-8638-8492A84A87CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAAE84B-7877-4726-8638-8492A84A87CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAAE84B-7877-4726-8638-8492A84A87CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAAE84B-7877-4726-8638-8492A84A87CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC221BD-E7B5-4DA2-A1C2-42E4A984F40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC221BD-E7B5-4DA2-A1C2-42E4A984F40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC221BD-E7B5-4DA2-A1C2-42E4A984F40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC221BD-E7B5-4DA2-A1C2-42E4A984F40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD84115-9F81-4654-8DB0-D78E337516B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD84115-9F81-4654-8DB0-D78E337516B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD84115-9F81-4654-8DB0-D78E337516B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD84115-9F81-4654-8DB0-D78E337516B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2743A6E-D175-49F3-952A-3600A9BCD018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2743A6E-D175-49F3-952A-3600A9BCD018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2743A6E-D175-49F3-952A-3600A9BCD018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2743A6E-D175-49F3-952A-3600A9BCD018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776D2ADD-1AC3-4219-8F95-6E581A7439E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776D2ADD-1AC3-4219-8F95-6E581A7439E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776D2ADD-1AC3-4219-8F95-6E581A7439E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776D2ADD-1AC3-4219-8F95-6E581A7439E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FEFEBD-0BAA-46E1-B8BE-28949C3E2CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FEFEBD-0BAA-46E1-B8BE-28949C3E2CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FEFEBD-0BAA-46E1-B8BE-28949C3E2CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FEFEBD-0BAA-46E1-B8BE-28949C3E2CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFAAE84B-7877-4726-8638-8492A84A87CD} = {13442CD8-2926-4F93-B778-94391CC11707}
+		{1DC221BD-E7B5-4DA2-A1C2-42E4A984F40A} = {545851F8-BA16-4EBA-B3B1-8392CCB951EE}
+		{218EC452-8316-46E0-801D-E7B1B6108B6B} = {D0471293-BE7C-4387-AF48-1A01AA0E6E64}
+		{A266E438-EBA2-457F-AFDD-77C712FA5798} = {D0471293-BE7C-4387-AF48-1A01AA0E6E64}
+		{9FD84115-9F81-4654-8DB0-D78E337516B6} = {218EC452-8316-46E0-801D-E7B1B6108B6B}
+		{E2743A6E-D175-49F3-952A-3600A9BCD018} = {A266E438-EBA2-457F-AFDD-77C712FA5798}
+		{776D2ADD-1AC3-4219-8F95-6E581A7439E4} = {ED43D56E-7A49-4B52-84FE-26C816A5C6CE}
+		{60FEFEBD-0BAA-46E1-B8BE-28949C3E2CCD} = {0E9416D5-717D-4D71-B7FA-F5FE30B06905}
+	EndGlobalSection
+EndGlobal
